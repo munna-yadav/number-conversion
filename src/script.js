@@ -40,7 +40,7 @@ function convertIntoHexa(){
    var number=document.getElementById("number_input").value
    var hexadecimal=parseFloat(number,10).toString(16)
   //var convert_number= takeAsBinary()    
-  var roundedHexaDecimal=parseFloat(hexadecimal).toFixed(4)
-  document.getElementById("output").innerText=roundedHexaDecimal.toUpperCase();
+  // var roundedHexaDecimal=parseFloat(hexadecimal).toFixed(4)
+  document.getElementById("output").innerText=hexadecimal.toUpperCase();
 }
   
