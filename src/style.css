@@ -1,0 +1,113 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0 ;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(79deg, rgba(2,0,36,1) 0%, rgba(187,131,199,1) 75%, rgba(41,1,99,1) 78%, rgba(0,212,255,1) 100%);
+}
+ .header span #title{
+    padding-top:3cm ;
+}
+.nav{
+    margin-left: 320px;
+    background-color: #110336;
+    width: 750px;;
+    height: 20vh;
+    margin-top:3cm;
+    padding-top:50px;
+    font-family: poppins;
+    display: flex;
+    align-items: self-start;
+    justify-content:space-evenly;
+    border-radius: 9px;
+}
+.nav #output{
+    margin-left: 50px;
+    border: 10px ;
+    border-radius: 10px;
+    width: fit-content;
+    
+}
+.header{
+    margin-top: 3cm;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu;
+    text-align: center;
+    height: 4vh;
+    
+}
+input{
+    height: 1cm;
+    width:4cm ;
+    border: 5px solid;
+    border-color: rgb(189, 197, 182);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+button{
+    width: 5cm;
+    height: 1cm;
+    border: rgb(112, 114, 112) solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    }
+button #select{
+    width: 5;
+    margin-left: 1cm;
+}
+button:hover{
+    cursor: pointer;
+}
+.dropbtn {
+    height: 1.1cm;
+    background-color: #05305e;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 10px ;
+    font-family: poppins;
+    padding-bottom: 20px;
+  }
+  .dropbtn:hover{
+    background-color: #05305e;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 1cm;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content > button{
+    background: #05305e;
+    font-size: 1rem;
+    color: white;
+  }
+  #output{
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:#05305e;}
+
+  .footer {
+    color: white;
+    font-family: Ubuntu;
+    font-size: xx-large;
+    padding-top:2.5cm;
+    margin-left: 40%;
+  }
+  
