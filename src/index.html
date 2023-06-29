@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="script" href="script.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&family=Ubuntu&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+</head>
+<body>
+    <div class="header"><span id="title">Number Conversion Calculator</span></div>
+    <div class="nav">
+        <input id="number_input" type="number" placeholder="Decimal">
+       
+       <!-- <div class=dropdown> -->
+         <!--   <button class="dropbtn" id="select"><span id="from">From</span></button> -->
+         <!--   <div class="dropdown-content"> -->
+         <!--       <button onclick="takeAsDecimal()">Decimal</button> -->
+         <!--       <button onclick="takeAsBinary()">Binary</button> -->
+         <!--       <button onclick="takeAsOctal()">Octal</button> -->
+         <!--       <button onclick="takeAsHexadecimal()">Hexadecimal</button> -->
+         <!--   </div> -->
+        <!--</div> -->
+   
+       
+        <div class="dropdown">
+            <button class="dropbtn" id="select"><span id="base">To</span></button>
+            <div class="dropdown-content">
+              <button onclick="convertIntoBinary()">Binary</button>
+              <button onclick="convertIntoOctal()">Octal</button>
+              <button onclick="convertIntoHexa()">Hexadecimal</button>
+             
+            </div>
+          </div>
+        
+          <span id="output"></span>
+    </div>
+    <div class="footer"><span id="footer">Made with 🧡 </span>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
