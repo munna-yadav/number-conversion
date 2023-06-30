@@ -11,18 +11,31 @@ body{
     padding-top:3cm ;
 }
 .nav{
-    margin-left: 320px;
+    margin-left: 25%;
     background-color: #110336;
-    width: 750px;;
+    width: 750px;
     height: 20vh;
-    margin-top:3cm;
+    margin-top: 5vh;
     padding-top:50px;
     font-family: poppins;
     display: flex;
-    align-items: self-start;
+    /* max-width: 500px; */
+    align-items: flex-start;
     justify-content:space-evenly;
     border-radius: 9px;
+    transition: width 0.8s ease;
 }
+@media (max-width: 1000px) {
+  .nav {
+    /* Styles specific to screens with a maximum width of 768px or less */
+    flex-direction: column;
+    align-items: center;
+    /* transform: scale(0.8); */
+    width: 60%;
+    
+  }
+}
+
 .nav #output{
     margin-left: 50px;
     border: 10px ;
@@ -84,7 +97,7 @@ button:hover{
   
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
