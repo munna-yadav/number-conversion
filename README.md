@@ -15,7 +15,9 @@
 ## 👋 Availability
    - you can either clone this repositry to your local machine
      
-    ``` git clone https://github.com/munna-yadav/number-conversion.git ```
+``` bash  
+git clone https://github.com/munna-yadav/number-conversion.git
+```
    - or you can fint it [here](https://www.deciconvert.netlify.app)
 
   ## 🤝contributing
