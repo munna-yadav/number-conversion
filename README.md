@@ -18,7 +18,7 @@
 ```bash  
    git clone https://github.com/munna-yadav/number-conversion.git
 ```
-   - Or you can find it [here](https://www.deciconvert.netlify.app)
+   - Or you can find it [here](https://www.munnasconverter.vercel.app)
 
 ## 🤝Contributing
 
