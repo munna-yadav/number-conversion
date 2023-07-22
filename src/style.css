@@ -6,21 +6,22 @@ body,html{
 body{
     background: rgb(2,0,36);
     background: linear-gradient(79deg, rgba(2,0,36,1) 0%, rgba(187,131,199,1) 75%, rgba(41,1,99,1) 78%, rgba(0,212,255,1) 100%);
-}
+    background-size: cover;
+    background-attachment: fixed;  }
  .header span #title{
     padding-top:3cm ;
 }
 .nav{
     margin-left: 25%;
     background-color: #110336;
-    width: 750px;
+    width: 800px;
     height: 20vh;
     margin-top: 5vh;
     padding-top:50px;
     font-family: poppins;
     display: flex;
     /* max-width: 500px; */
-    align-items: flex-start;
+
     justify-content:space-evenly;
     border-radius: 9px;
     transition: width 0.8s ease;
@@ -31,9 +32,30 @@ body{
     flex-direction: column;
     align-items: center;
     /* transform: scale(0.8); */
-    width: 60%;
-    
+    width: 70%;
+    padding-left: 8px;
+    margin-left: 2cm;
+    padding-top: 5px;
+    height: 55vh;
   }
+  .header{
+    margin-bottom: 4rem;
+  }
+   span #title{
+    font-size: small;
+    padding-bottom: 10px;
+    margin-bottom: 90px;
+    margin-top: 0cm;
+  }
+  input{
+
+    width: 5rem;
+  }
+  .footer{
+    margin: 0%;
+    font-size: large;
+  }
+
 }
 
 .nav #output{
@@ -50,9 +72,10 @@ body{
     font-family: Ubuntu;
     text-align: center;
     height: 4vh;
-    
+       
 }
 input{
+  
     height: 1cm;
     width:4cm ;
     border: 5px solid;
@@ -69,7 +92,7 @@ button{
     margin-top: 10px;
     }
 button #select{
-    width: 5;
+    width: 5vh;
     margin-left: 1cm;
 }
 button:hover{
@@ -83,7 +106,7 @@ button:hover{
     font-size: 16px;
     border-radius: 10px ;
     font-family: poppins;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
   .dropbtn:hover{
     background-color: #05305e;
@@ -91,14 +114,16 @@ button:hover{
   
   .dropdown {
     position: relative;
-    display: inline-block;
+    display:flex;
+    flex-direction: column;
     margin-left: 1cm;
+    height: 80px;
   }
   
   .dropdown-content {
     display: none;
     position: relative;
-    min-width: 160px;
+    width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -117,10 +142,19 @@ button:hover{
   .dropdown:hover .dropbtn {background-color:#05305e;}
 
   .footer {
+    margin-top:2vh
     color: white;
     font-family: Ubuntu;
     font-size: xx-large;
     padding-top:2.5cm;
     margin-left: 40%;
   }
+
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
   
